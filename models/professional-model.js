@@ -5,7 +5,10 @@ const professionalSchema = mongoose.Schema(
       type: String,
       required: [true, 'Professional Name is required'],
     },
-    base64Image: { type: String, required: [true, 'Image is required'] },
+    base64Image: { 
+      type: String, 
+      required: [true, 'Image is required'] 
+    },
     primaryDescription: {
       type: String,
       required: [true, 'Primary Description is required'],
